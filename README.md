@@ -1,4 +1,4 @@
-# von Mises-Fisher Sampling of Glove Vectors
+# von Mises-Fisher Sampling of GloVe Vectors
 
 This anonymous repository contains Python code for reproducing the experiments described in the Tiny Paper titled _"von Mises-Fisher Sampling of Glove Vectors"_. This paper is currently under review for presentation at the [FPI@ICLR 2025](https://sites.google.com/view/fpiworkshop/about) workshop and will be made available online upon publication.
 
@@ -28,7 +28,7 @@ After downloading the correct file, unzip it and place it in a folder named `dat
 
 The script `compute_probas.py` will run Monte Carlo simulations estimating the probability for von Mises-Fisher exploration and Boltzmann exploration to sample an action with known similarity given a state vector.
 
-All vectors are sampled from the Glove 25 dataset previously downloaded. The result can then be plotted using `plot_probas.py`.
+All vectors are sampled from the GloVe-25 dataset previously downloaded. The result can then be plotted using `plot_probas.py`.
 
 For instance, to reproduce **Figure 2.a**, one can run the following command:
 
@@ -43,7 +43,7 @@ which will create a plot similar to the following one:
 
 ![alt text](resources/plot_0.0.png)
 
-and save in a sub-folder of `/results/` named according to the chosen parameters.
+and saved in a sub-folder of `/results/` named according to the chosen parameters.
 
 
 ## Compare Boltzmann and von-Mises Fisher Explorations for a range of values
