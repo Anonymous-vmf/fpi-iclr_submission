@@ -22,7 +22,7 @@ python -m src.plot_probas --path results/glove.25/k\=1.0_a\=0.00_samples\=300000
 ```
 which will create a plot similar to the following one
 
-![alt text](resources/plot_0.0.png)
+![alt text](resources/plot_0_0.png)
 
 and save in a sub-folder of /results/ named according to the chosen parameters.
 
