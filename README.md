@@ -1,4 +1,4 @@
-# von Mises-Fisher Exploration
+# von Mises-Fisher Sampling of Glove Vectors
 Repository for the Paper "von Mises-Fisher Sampling of Glove Vectors" by Anonymous Authors.
 
 A recent publication introduced von Mises-Fisher exploration (vMF-exp), a scalable sampling method for exploring large action sets in reinforcement learning problems where hyperspherical embedding vectors represent these actions. We present the first experimental validation of vMF-exp’s key theoretical and scalability properties on a publicly available real-world dataset, confirming the potential of~this~method.
